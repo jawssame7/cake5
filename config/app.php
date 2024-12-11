@@ -316,10 +316,10 @@ return [
              * which is the recommended value in production environments
              */
 	    //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
-	    'host' => 'database-1.cniw00gmm3ht.ap-northeast-1.rds.amazonaws.com',
-	    'username' => 'admin', // RDSのユーザー名
-            'password' => 'YR6vfpBPn37XGNi6SVUz', // RDSのパスワード
-            'database' => 'test', // RDSのデータベース名
+	        'host' => '',
+	        'username' => '', // RDSのユーザー名
+            'password' => '', // RDSのパスワード
+            'database' => '', // RDSのデータベース名
         ],
 
         /*
